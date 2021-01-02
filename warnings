@@ -1,0 +1,15 @@
+Some of your project's dependencies are not compatible with currently installed expo package version:
+ - react-native-gesture-handler - expected version range: ~1.6.0 - actual version installed: ~1.5.0
+ - react-native-reanimated - expected version range: ~1.7.0 - actual version installed: ~1.4.0
+ - react-native-screens - expected version range: ~2.2.0 - actual version installed: 2.0.0-alpha.12
+ - react-native-safe-area-context - expected version range: 0.7.3 - actual version installed: 0.6.0
+ - @react-native-community/masked-view - expected version range: 0.1.6 - actual version installed: 0.1.5
+Your project may not work correctly until you install the correct versions of the packages.
+To install the correct versions of these packages, please run: expo install [package-name ...]
+
+
+npm install react-native-gesture-handler@~1.6.0
+npm install react-native-reanimated@~1.7.0,
+npm install react-native-screens@~2.2.0,
+npm install react-native-safe-area-context@0.7.3,
+npm install @react-native-community/masked-view@0.1.6
